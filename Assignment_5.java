@@ -15,7 +15,7 @@ public class Assignment_5{
         int choose;
         int loop = 0;
         while(loop != 7){ 
-            System.out.println("Select:\n1.Enrollment\n2.Fees\n3.Enter Marks\n4.Average\n5.Grade\n6.Report card\n7.Exit");
+            System.out.println("\nSelect:\n1.Enrollment\n2.Fees\n3.Enter Marks\n4.Average\n5.Grade\n6.Report card\n7.Exit");
             choose = sc.nextInt();
             switch(choose){
                 case 1:
@@ -54,7 +54,7 @@ public class Assignment_5{
                     System.err.println("Bye");
                     break;
             }
-            
+            g
         }
     }
 static void enrollStudent(){

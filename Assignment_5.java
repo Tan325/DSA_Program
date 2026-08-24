@@ -60,7 +60,7 @@ public class Assignment_5{
 static void enrollStudent(){
     System.out.println("Enter your name:");
     name = sc.next();
-    System.err.println("Enter your course");
+    System.out.println("Enter your course");
     course = sc.next();
     System.out.println(name+" in "+course+" (Roll: "+course+"_"+counter+")");
     counter++;
